@@ -30,15 +30,15 @@
     
     // Get device unique ID
     UIDevice *device = [UIDevice currentDevice];
-    NSString *uniqueIdentifier = [device uniqueIdentifier];
+    NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];//[device uniqueIdentifier];
     
     // Start request
     NSString *code = textField.text;
-    NSURL *url = [NSURL URLWithString:@"http://localhost/learnphp/index.php"];
+    NSURL *url = [NSURL URLWithString:@"http://10.48.0.154/learnphp/index.php"];
     ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
     [request setPostValue:@"1" forKey:@"rw_app_id"];
     [request setPostValue:code forKey:@"code"];
-    [request setPostValue:@"test" forKey:@"device_id"];
+    [request setPostValue:uniqueIdentifier forKey:@"device_id"];
     [request setDelegate:self];
     [request startAsynchronous];
     
