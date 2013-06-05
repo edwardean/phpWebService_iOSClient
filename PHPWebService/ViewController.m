@@ -38,7 +38,12 @@
     
     // Start request
     NSString *code = textField.text;
+    
+    ////////////////////////////////////////////////////////////////////////////
+    // Add your Server Host here
     NSURL *url = [NSURL URLWithString:@"http://10.48.0.154/learnphp/index.php"];
+    ////////////////////////////////////////////////////////////////////////////
+    
     ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
     [request setPostValue:@"1" forKey:@"rw_app_id"];
     [request setPostValue:code forKey:@"code"];

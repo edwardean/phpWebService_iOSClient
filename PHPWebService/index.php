@@ -65,7 +65,13 @@
 
 	//Constructor - open DB connetion
 	function __construct() {
+        //////////////////////////////////////////////////////////
+        //
+        // Add your database parameters here
+        //
+        //
 		$this->db = new mysqli('localhost','root','hang','promos');
+        ///////////////////////////////////////////////////////////
 		$this->db->autocommit(FALSE);
 	}
 
