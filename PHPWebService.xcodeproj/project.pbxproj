@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB41AEF175E384F00B1D767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB41AEE175E384F00B1D767 /* UIKit.framework */; };
+		CAB41AF1175E384F00B1D767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB41AF0175E384F00B1D767 /* Foundation.framework */; };
+		CAB41AF3175E384F00B1D767 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB41AF2175E384F00B1D767 /* CoreGraphics.framework */; };
+		CAB41AF9175E384F00B1D767 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAB41AF7175E384F00B1D767 /* InfoPlist.strings */; };
+		CAB41AFB175E384F00B1D767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB41AFA175E384F00B1D767 /* main.m */; };
+		CAB41AFF175E384F00B1D767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB41AFE175E384F00B1D767 /* AppDelegate.m */; };
+		CAB41B01175E384F00B1D767 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB41B00175E384F00B1D767 /* Default.png */; };
+		CAB41B03175E384F00B1D767 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB41B02175E384F00B1D767 /* Default@2x.png */; };
+		CAB41B05175E384F00B1D767 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB41B04175E384F00B1D767 /* Default-568h@2x.png */; };
+		CAB41B08175E384F00B1D767 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB41B07175E384F00B1D767 /* ViewController.m */; };
+		CAB41B0B175E384F00B1D767 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB41B09175E384F00B1D767 /* ViewController.xib */; };
+		DF724CDE089A4FDD80C0E716 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28848D54301B4791A7B2004E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183D807E6F85416683618E1E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		28848D54301B4791A7B2004E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB41AEB175E384F00B1D767 /* PHPWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHPWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB41AEE175E384F00B1D767 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAB41AF0175E384F00B1D767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAB41AF2175E384F00B1D767 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAB41AF6175E384F00B1D767 /* PHPWebService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHPWebService-Info.plist"; sourceTree = "<group>"; };
+		CAB41AF8175E384F00B1D767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAB41AFA175E384F00B1D767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB41AFC175E384F00B1D767 /* PHPWebService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHPWebService-Prefix.pch"; sourceTree = "<group>"; };
+		CAB41AFD175E384F00B1D767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAB41AFE175E384F00B1D767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAB41B00175E384F00B1D767 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAB41B02175E384F00B1D767 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CAB41B04175E384F00B1D767 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAB41B06175E384F00B1D767 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAB41B07175E384F00B1D767 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAB41B0A175E384F00B1D767 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CABAC23D175EBA57000177FD /* create.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = create.sql; sourceTree = "<group>"; };
+		CABAC23E175EBA82000177FD /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		CACC73DF175E445700AD5025 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB41AE8175E384F00B1D767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB41AEF175E384F00B1D767 /* UIKit.framework in Frameworks */,
+				CAB41AF1175E384F00B1D767 /* Foundation.framework in Frameworks */,
+				CAB41AF3175E384F00B1D767 /* CoreGraphics.framework in Frameworks */,
+				DF724CDE089A4FDD80C0E716 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB41AE2175E384F00B1D767 = {
+			isa = PBXGroup;
+			children = (
+				CAB41AF4175E384F00B1D767 /* PHPWebService */,
+				CAB41AED175E384F00B1D767 /* Frameworks */,
+				CAB41AEC175E384F00B1D767 /* Products */,
+				183D807E6F85416683618E1E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB41AEC175E384F00B1D767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB41AEB175E384F00B1D767 /* PHPWebService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB41AED175E384F00B1D767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB41AEE175E384F00B1D767 /* UIKit.framework */,
+				CAB41AF0175E384F00B1D767 /* Foundation.framework */,
+				CAB41AF2175E384F00B1D767 /* CoreGraphics.framework */,
+				28848D54301B4791A7B2004E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB41AF4175E384F00B1D767 /* PHPWebService */ = {
+			isa = PBXGroup;
+			children = (
+				CAB41AFD175E384F00B1D767 /* AppDelegate.h */,
+				CAB41AFE175E384F00B1D767 /* AppDelegate.m */,
+				CAB41B06175E384F00B1D767 /* ViewController.h */,
+				CAB41B07175E384F00B1D767 /* ViewController.m */,
+				CACC73DF175E445700AD5025 /* README.rtf */,
+				CAB41B09175E384F00B1D767 /* ViewController.xib */,
+				CAB41AF5175E384F00B1D767 /* Supporting Files */,
+			);
+			path = PHPWebService;
+			sourceTree = "<group>";
+		};
+		CAB41AF5175E384F00B1D767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABAC23E175EBA82000177FD /* index.php */,
+				CABAC23D175EBA57000177FD /* create.sql */,
+				CAB41AF6175E384F00B1D767 /* PHPWebService-Info.plist */,
+				CAB41AF7175E384F00B1D767 /* InfoPlist.strings */,
+				CAB41AFA175E384F00B1D767 /* main.m */,
+				CAB41AFC175E384F00B1D767 /* PHPWebService-Prefix.pch */,
+				CAB41B00175E384F00B1D767 /* Default.png */,
+				CAB41B02175E384F00B1D767 /* Default@2x.png */,
+				CAB41B04175E384F00B1D767 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB41AEA175E384F00B1D767 /* PHPWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB41B0E175E384F00B1D767 /* Build configuration list for PBXNativeTarget "PHPWebService" */;
+			buildPhases = (
+				FD100EF2F0AD4D2C8CB04D5F /* Check Pods Manifest.lock */,
+				CAB41AE7175E384F00B1D767 /* Sources */,
+				CAB41AE8175E384F00B1D767 /* Frameworks */,
+				CAB41AE9175E384F00B1D767 /* Resources */,
+				8FF82A098BCD44729BEED726 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHPWebService;
+			productName = PHPWebService;
+			productReference = CAB41AEB175E384F00B1D767 /* PHPWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB41AE3175E384F00B1D767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lihang;
+			};
+			buildConfigurationList = CAB41AE6175E384F00B1D767 /* Build configuration list for PBXProject "PHPWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAB41AE2175E384F00B1D767;
+			productRefGroup = CAB41AEC175E384F00B1D767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB41AEA175E384F00B1D767 /* PHPWebService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB41AE9175E384F00B1D767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB41AF9175E384F00B1D767 /* InfoPlist.strings in Resources */,
+				CAB41B01175E384F00B1D767 /* Default.png in Resources */,
+				CAB41B03175E384F00B1D767 /* Default@2x.png in Resources */,
+				CAB41B05175E384F00B1D767 /* Default-568h@2x.png in Resources */,
+				CAB41B0B175E384F00B1D767 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FF82A098BCD44729BEED726 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		FD100EF2F0AD4D2C8CB04D5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB41AE7175E384F00B1D767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB41AFB175E384F00B1D767 /* main.m in Sources */,
+				CAB41AFF175E384F00B1D767 /* AppDelegate.m in Sources */,
+				CAB41B08175E384F00B1D767 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB41AF7175E384F00B1D767 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB41AF8175E384F00B1D767 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAB41B09175E384F00B1D767 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB41B0A175E384F00B1D767 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB41B0C175E384F00B1D767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAB41B0D175E384F00B1D767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB41B0F175E384F00B1D767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183D807E6F85416683618E1E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHPWebService/PHPWebService-Prefix.pch";
+				INFOPLIST_FILE = "PHPWebService/PHPWebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAB41B10175E384F00B1D767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183D807E6F85416683618E1E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHPWebService/PHPWebService-Prefix.pch";
+				INFOPLIST_FILE = "PHPWebService/PHPWebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB41AE6175E384F00B1D767 /* Build configuration list for PBXProject "PHPWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB41B0C175E384F00B1D767 /* Debug */,
+				CAB41B0D175E384F00B1D767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB41B0E175E384F00B1D767 /* Build configuration list for PBXNativeTarget "PHPWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB41B0F175E384F00B1D767 /* Debug */,
+				CAB41B10175E384F00B1D767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB41AE3175E384F00B1D767 /* Project object */;
+}
