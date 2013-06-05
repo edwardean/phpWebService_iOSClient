@@ -30,7 +30,11 @@
     
     // Get device unique ID
     UIDevice *device = [UIDevice currentDevice];
-    NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];//[device uniqueIdentifier];
+    NSString *uniqueIdentifier;
+    if ([[device systemVersion] floatValue] >= 5.0) {
+        uniqueIdentifier = [[device identifierForVendor] UUIDString];
+    } else
+        uniqueIdentifier = [device uniqueIdentifier];
     
     // Start request
     NSString *code = textField.text;
